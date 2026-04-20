@@ -1,10 +1,10 @@
-global start
+global _start
 extern kernel_main
 
 section .text
 bits 64
 
-start:
+_start:
     mov ax, 0x10
     mov ds, ax
     mov es, ax
